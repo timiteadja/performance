@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbarm{
+    margin-left: 200px;
+    }
+    #navbarm li a{
+        color: rgb(0, 128, 0);
+        margin: 15px;
+    }
+    #icone i{
+        margin: 5px;
+    }
+
+#haut{
+    position: relative;
+    width: 100%;
+    
+    
+    }
+     #haut #contact{
+        position: absolute;
+        margin-left: 40%;
+        bottom: 50px;
+        color: white;
+    }
+    #haut #contact p a{
+        text-decoration: none;
+        color: white;
+        align-items: center;
+    }
+    #haut #contact p{
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .pays{
+        margin-top: 50px;
+width: 100%;
+height: 600px;
+margin-bottom: 200px;
+    }
+    .partie2{
+        justify-content: space-between;
+        width: 80%;
+        height: 200px;
+        margin: 5px  auto;
+       
+
+    }
+    .programme{
+        width: 100%;
+        height: 100px;
+         display: flex;
+         justify-content: space-around;
+         padding-top: 70px;
+         
+    }
+
+ 
+
+
+
+
+    #vert{
+    
+        background-color: #035203;
+        height: 300px;
+    } 
+    .conteneur3{
+        
+        position: relative;
+        
+    }
+    #bas{
+    margin-left: 10%;
+        width: 80%;
+        height: 200px;
+        background-image: linear-gradient(rgba(177, 140, 72, 0.699),rgba(194, 163, 106, 0.705)), url(../image/téléchargement\ \(1\).jfif);
+    position: absolute;
+    bottom: -100px;
+        border-radius: 10px;
+        color: white;
+        
+    }
+    .img,.img1,.img2{
+        opacity: 0.4;
+    }
+    .img:hover{
+        opacity: 1;
+    }
+    .img1:hover{
+        opacity: 1;
+    }
+    .img2:hover{
+        opacity: 1;
+    }
+    
+    footer{
+        width: 100%;
+        background-color: rgb(187, 126, 12);height: 70px;
+       
+        
+    }
+    #foo{
+        width: 90%;
+        margin: auto;
+        display: flex; justify-content: space-between;
+        color: white;
+    }
+    
+    #lien{
+        width: 60%;
+        margin:auto;
+        padding-top: 150px;
+    }
+    footer p,p{
+        padding: 20px;
+        font-size: 18px;
+    }

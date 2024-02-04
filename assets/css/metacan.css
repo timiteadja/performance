@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbarm{
+    margin-left: 200px;
+    }
+    #navbarm li a{
+        color: rgb(0, 128, 0);
+        margin: 15px;
+    }
+    #icone i{
+        margin: 5px;
+    }
+.conteneur{
+    position: relative;
+}
+#meta{
+    position: absolute;
+    bottom: 20%;
+    margin-left: 25%;
+    color: white;
+    font-size: 50px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#meta h1{
+    margin-left: 150px;
+    font-size: 70px;
+}
+#meta h2{
+    margin-left: 100px;
+    font-size:50px;
+}
+#meta a{
+    color: black;
+    font-style: oblique;
+}
+
+.conteneur2{
+    width: 100%;
+    
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.partie{
+
+    height: 700px;
+    
+}
+#par{
+    width: 60%;
+    padding:200px 100px 100px 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.match{
+    width: 30%;
+    margin: auto;
+    padding-top: 100px;
+}
+#container{
+    margin-top: 50px;
+}
+.conteneur5{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.conteneur4{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-image: linear-gradient(rgba(241, 161, 12, 0.425),rgba(255, 169, 10, 0.644)),
+    url(../image/stade-65539fd7920d1.jpg);
+}
+
+#vert{
+    
+    background-color: #035203;
+    height: 300px;
+} 
+.conteneur3{
+    
+    position: relative;
+    
+    
+}
+
+
+
+#bas{
+    margin-left: 10%;
+    width: 80%;
+justify-content: space-around;
+    height: 200px;
+    background-image: linear-gradient(rgba(177, 140, 72, 0.699),rgba(194, 163, 106, 0.705)), url(../image/téléchargement\ \(1\).jfif);
+    color: white;
+position: absolute;
+bottom: -100px;
+    border-radius: 10px;
+    
+}
+.img,.img1,.img2{
+    opacity: 0.4;
+}
+.img:hover{
+    opacity: 1;
+}
+.img1:hover{
+    opacity: 1;
+}
+.img2:hover{
+    opacity: 1;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(187, 126, 12);height: 70px;
+   
+    
+}
+#foo{
+    width: 90%;
+    margin: auto;
+    display: flex; justify-content: space-between;
+    color: white;
+}
+
+#lien{
+    width: 60%;
+    margin:auto;
+    padding-top: 150px;
+}
+footer p,p{
+    padding: 20px;
+    font-size: 18px;
+}
