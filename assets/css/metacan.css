@@ -11,32 +11,53 @@
     }
     #icone i{
         margin: 5px;
+        color: white;
     }
-.conteneur{
-    position: relative;
+    .bg-dark{
+        background-color: white !important;
+        border-bottom: 2px solid orange;
+        height: 100px;
+    }
+     header{
+        height: 700px;
+     }
+   .photo{
+    height: 650px;
+    width: 100%;
+   }
+
+   @media (max-width:750px)
+{
+    header{
+       
+        height: 300px;
+        
+    }
+    .photo{
+        height: 300px;
+
+    }
+   #meta{
+    
+  top:-300px;
+   }
+   #meta .boutton{
+    top: -150px;
+   }
+    
 }
 #meta{
-    position: absolute;
-    bottom: 20%;
-    margin-left: 25%;
+    
     color: white;
-    font-size: 50px;
-    padding: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#meta h1{
-    margin-left: 150px;
-    font-size: 70px;
-}
-#meta h2{
-    margin-left: 100px;
-    font-size:50px;
-}
-#meta a{
-    color: black;
-    font-style: oblique;
+    width: 100%;
+    position: relative;
+    bottom: 400px;
+    font-size: 100px;
 }
 
+#meta h1,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .conteneur2{
     width: 100%;
     
@@ -44,6 +65,10 @@
     display: flex;
     justify-content: space-around;
 }
+
+
+
+
 
 .partie{
 
@@ -60,51 +85,46 @@
     margin: auto;
     padding-top: 100px;
 }
-#container{
-    margin-top: 50px;
-}
+
+
 .conteneur5{
-    margin-top: 50px;
-    margin-bottom: 200px;
+    background-image: url(../image/stade-65539fd7920d1.jpg);
+    height: 250px; background-size: cover;
+    margin-top: 100px;
 }
 .conteneur4{
-    width: 100%;
+
     height: 500px;
     margin-top: 100px;
-    background-image: linear-gradient(rgba(241, 161, 12, 0.425),rgba(255, 169, 10, 0.644)),
+    background-size: cover;
+    background-image: linear-gradient(#f1a10c6c,rgba(255, 169, 10, 0.644)),
     url(../image/stade-65539fd7920d1.jpg);
+
 }
+
+
 
 #vert{
     
     background-color: #035203;
     height: 300px;
 } 
-.conteneur3{
-    
-    position: relative;
-    
-    
-}
 
 
-
-#bas{
-    margin-left: 10%;
-    width: 80%;
-justify-content: space-around;
-    height: 200px;
-    background-image: linear-gradient(rgba(177, 140, 72, 0.699),rgba(194, 163, 106, 0.705)), url(../image/téléchargement\ \(1\).jfif);
-    color: white;
-position: absolute;
-bottom: -100px;
+#row {
+    background-image:  url(../image/stade-65539fd7920d1.jpg );
+    background-repeat: no-repeat;
+margin-top:50px;
     border-radius: 10px;
-    
+    position: relative;
+    top: 80px;
+    z-index: 1;
+
 }
-.img,.img1,.img2{
+.img3,.img1,.img2{
     opacity: 0.4;
 }
-.img:hover{
+.img3:hover{
     opacity: 1;
 }
 .img1:hover{

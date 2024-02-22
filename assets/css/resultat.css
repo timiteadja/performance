@@ -11,82 +11,62 @@
     }
     #icone i{
         margin: 5px;
+        color: white;
     }
-
-#haut{
+    
+.bg{
     position: relative;
-    width: 100%;
-    
-    
+    bottom: 150px;
+}
+ 
+    .bg-dark{
+        background-color: white !important;
+        border-bottom: 2px solid orange;
+        height: 100px;
     }
-     #haut #contact{
-        position: absolute;
-        margin-left: 40%;
-        bottom: 50px;
-        color: white;
-    }
-    #haut #contact p a{
-        text-decoration: none;
-        color: white;
-        align-items: center;
-    }
-    #haut #contact p{
-        font-size: 20px;
-        margin-left: 50px;
-    }
-    .pays{
-        margin-top: 50px;
-width: 100%;
-height: 600px;
-margin-bottom: 200px;
-    }
-    .partie2{
-        justify-content: space-between;
-        width: 80%;
-        height: 200px;
-        margin: 5px  auto;
        
 
+    @media (max-width:750px)
+{
+    header{
+       
+        height: 350px;
     }
-    .programme{
-        width: 100%;
-        height: 100px;
-         display: flex;
-         justify-content: space-around;
-         padding-top: 70px;
-         
+    .photo{
+        height: 300px;
     }
+    
+}
 
- 
 
-
-
+    #row {
+        background-image:  url(../image/stade-65539fd7920d1.jpg );
+        background-repeat: no-repeat;
+    margin-top: 150px;
+        border-radius: 10px;
+        bottom: 100px;
+        position: relative;
+        top: 80px;
+        z-index: 1;
+    
+    
+    }
+    #bien{
+text-decoration: none;
+    }
 
     #vert{
     
         background-color: #035203;
         height: 300px;
-    } 
-    .conteneur3{
-        
         position: relative;
-        
-    }
-    #bas{
-    margin-left: 10%;
-        width: 80%;
-        height: 200px;
-        background-image: linear-gradient(rgba(177, 140, 72, 0.699),rgba(194, 163, 106, 0.705)), url(../image/téléchargement\ \(1\).jfif);
-    position: absolute;
-    bottom: -100px;
-        border-radius: 10px;
-        color: white;
-        
-    }
-    .img,.img1,.img2{
+        z-index: 0;
+    } 
+    
+    .img0,.img1,.img2{
         opacity: 0.4;
     }
-    .img:hover{
+    .img0:hover{
         opacity: 1;
     }
     .img1:hover{

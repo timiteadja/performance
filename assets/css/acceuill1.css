@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#slide {
+    position: relative;
+    bottom: 450px;
+    left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#slide1 {
+    position: relative;
+    bottom: 450px;
+    left:50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.nav li a {
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+    font-size: 17px;
+
+}
+
+.nav li a:hover {
+    color: orange;
+}
+
+.icone {
+    color: white;
+
+}
+
+.icone i {
+    margin: 5px;
+}
+
+.img-block {
+    height: 700px;
+}
+
+#container {
+    height: 750px;
+
+}
+
+.bg-dark {
+    background-color: white !important;
+    border-bottom: 2px solid orange;
+    height: 100px;
+}
+
+#diasporama {
+    padding-bottom: 100px;
+}
+
+@media (max-width:750px) {
+    .img-block {
+        height: 300px;
+    }
+
+    #slide,#slide1 {
+        bottom: 300px;
+    
+    }
+    #slide1{
+        left: 10%;
+    
+    }
+    #slide1 p{
+        font-size: 15px;
+    }
+    #slide p{
+        font-size: 15px;
+    }
+   
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    #container {
+        height: 350px;
+    }
+   
+#qui {
+   font-size: 15px;
+}
+    
+
+}
+
+
+
+.image1 {
+    background-image: url(../image/img-1.jpg);
+    background-size: cover;
+    height: 500px;
+
+
+}
+
+.image2 {
+    background-image: url(../image/stade-65539fd7920d1.jpg);
+    background-size: cover;
+    height: 550px;
+}
+#fils1{
+
+    margin-top: 200px;
+    height: 500px;
+    border-radius: 5px;
+    background-image: url(../image/obi-mikel.jpeg);
+    
+}
+table{
+    position: relative;
+    bottom: 10px;
+  
+}
+#fils1 h3{
+    position: relative;
+    bottom: 100px;
+
+}
+#fils2 h3{
+    position: relative;
+    bottom: 100px;
+}
+
+#fils{
+    width: 90%;
+    margin: auto;
+}
+#fils2 {
+    background-image: linear-gradient(rgba(0, 0, 255, 0),rgba(0, 0, 255, 0.774)), url(../image/img-5\ \(1\).jpg);
+    background-size: cover;
+    margin-top: 200px;
+    height: 550px;
+    border-radius: 5px;
+   
+}
+
+
+#espace {
+    height:550px;
+    background: linear-gradient(rgba(255, 208, 0, 0.45), rgba(255, 183, 0, 0.574)), url(../image/stade-65539fd7920d1.jpg);
+    background-size: cover;
+   
+
+   
+}
+
+#cont {
+    margin-left: 80px;
+   
+  
+}
+.hover:hover{
+    color: orange;
+}
+
+#bien{
+    background: url(../image/stade-65539fd7920d1.jpg);
+    height: 300px;
+}
+
+.img,.img1,.img2{
+    opacity: 0.4;
+}
+.img:hover{
+    opacity: 1;
+}
+.img1:hover{
+    opacity: 1;
+}
+.img2:hover{
+    opacity: 1;
+}
+#row {
+    background-image:  url(../image/stade-65539fd7920d1.jpg );
+    background-repeat: no-repeat;
+margin-top: 70px;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    z-index: 1;
+}
+#vert{
+    
+    background-color: #035203;
+    height: 300px;
+} 
+footer{
+    width: 100%;
+    background-color: rgb(187, 126, 12);height: 70px;
+   
+    
+}
+#foo{
+    width: 90%;
+    margin: auto;
+    display: flex; justify-content: space-between;
+    color: white;
+}
+
+#logo{
+    width: 60%;
+    margin:auto;
+    padding-top: 150px;
+}
+footer p,p{
+    padding: 20px;
+    font-size: 18px;
+}
+ 
+
+
+

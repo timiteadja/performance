@@ -11,19 +11,17 @@
 </head>
 
 <body>
-
-    <div id="haut">
-
-        <img src="assets/image/contact-front.jpg" alt="contacte" width="100%" height="500px">
-        <div id="contact">
-
+    <header >
+        <img class="img-fluid photo" src="assets/image/contact-front.jpg" alt="" height="500px " width="100%">
+        <div id="contact" class="text-center text-white ">
+            
+           
             <h1>CONTACTS</h1>
-            <p><a href="#">Accueil</a>
-                contactez-nous</p>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container fixed-top">
+            <p><a style="text-decoration: none;" class="text-white" href="#">Accueil</a>
+               <span class="text-warning"> contactez-nous </span></p>
+        </div>  </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent  fixed-top">
+        <div class="container">
             <div class="me-5">
                 <a href="index.html">
                     <img class="me-auto" src="assets/image/logo.png" alt="logo" width="200px" height="100px"></a>
@@ -38,14 +36,14 @@
 
                 <div class="me-5">
                     <ul class="nav navbar-nav justify-content-center">
-                        <li> <a class="navbar-brand" href="index.html"> ACCEUIL</a></li>
-                        <li><a class="navbar-brand" href="metacan.html">META CAN</a></li>
-                        <li> <a class="navbar-brand" href="resultat.html">RESULTATS</a></li>
-                        <li> <a class="navbar-brand" href="contacte.html">CONTACTEZ-NOUS</a></li>
+                        <li> <a class="navbar-brand" href="index.html" target="_blank"> ACCEUIL</a></li>
+                        <li><a class="navbar-brand" href="metacan.html" target="_blank">META CAN</a></li>
+                        <li> <a class="navbar-brand" href="resultat.html" target="_blank">RESULTATS</a></li>
+                        <li> <a class="navbar-brand" href="contacte.html" target="_blank">CONTACTEZ-NOUS</a></li>
                     </ul>
                 </div>
 
-                <div id="icone">
+                <div id="icone" >
                     <i class="fa fa-search">
 
                     </i>
@@ -54,97 +52,172 @@
             </div>
         </div>
     </nav>
-    <div class="conteneur">
-        <div class="partie">
-            
-                <h2>Appeler</h2>
-                <p>22514523621</p>
+    <div style="margin-top: 100px;" class="container  ">
+        <div class="row ">
+
+            <div class="col-sm-6 col-lg-3 mt-4    ">
+                
+                <div class="card partie  ">
+                    
+                    <div style="margin-top: 140px; " class="text-center">
+                         <h6>Appeler <br> <a  style="text-decoration: none; color: white;" href="">+22595064012</a></h6>
+                        
+                    </div>
+                </div>
             </div>
-            <div class="partie">
-                <h2>Adresse Mail</h2>
-                <p>adjatimite@gmail.com</p>
+
+
+            <div class="col-sm-6 col-lg-3  mt-4  ">
+                <div class="card partie ">
+                    <div style="margin-top: 140px; " class="text-center ">
+                        <h5>Adresse Mail <br>
+                            <a  style="text-decoration: none; color: white;"  href="">metacan@uvci.edu.ci</a></h5>
+                     
+                    </div>
+                </div>
             </div>
-            <div class="partie">
-                <h2>Fix</h2>
-                <p>+3301-341-0456</p>
+
+            <div class="col-sm-6 col-lg-3 mt-4   ">
+                <div class="card partie ">
+                    <div style="margin-top: 140px; " class="text-center">
+                         <h6>Fix <br><a  style="text-decoration: none; color: white;"  href="">  +3301-341-0476</a></h6>
+                        
+                    </div>
+                </div>
             </div>
-            <div class="partie">
-                <h2>Adresse</h2>
-                <p>Abidjan, II plateau, CI </p>
+
+
+            <div class="col-sm-6 col-lg-3 mt-4   ">
+                <div class="card partie ">
+                    <div style="margin-top: 140px; " class="text-center">
+                         <h6>Adresse <br><a  style="text-decoration: none; color: white;"  href=" " > Abidjan,II Plateux, CI</a></h6>
+                       
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
-        <div class="conteneur2">
-            <div id="conteneur2">
-                <div class="partie2"></div>
-                <div class="partie2">
-                    <h1>CONTACTEZ-NOUS</h1>
-                    <form action="">
-                        <div>
-                            <input style="padding: 15px; margin: 15px; width: 35%;" type="text"
-                                placeholder="Entrez votre nom">
-                            <input style="padding: 15px; margin: 15px; width: 35%;" type="email"
-                                placeholder="Entrez votre E-mail">
+    <div class="container">
+        <div class="row">
+
+            <div class="partie2 col-lg-6"></div>
+            <div class="partie2 col-lg-6">
+                <h1>CONTACTEZ-NOUS
+                    <div style="height: 3px; width: 50%;" class="progress">
+
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 50%; height: 5px;" aria-valuenow="30"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 50%; height: 5px;" aria-valuenow="30"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                   
+                  </div>
+                </h1>
+                <form action="" class="row">
+                    <div class="col-lg-6">
+                        <input type="text" class="form-control " placeholder="Entrez votre nom"> <br>
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="email" class="form-control" placeholder="Entrez votre E-mail"> <br>
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="tel" class="form-control" placeholder="Entrez votre numero de téléphone"> <br>
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="text" class="form-control" placeholder="Entrez le sujet"> <br>
+                    </div>
+                    <div class="col-md-12">
+                        <textarea class="form-control" name="" id="" cols="30" rows="10"
+                            placeholder="Entrez votre message"></textarea> <br>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-warning btn-lg ">Envoyer le message</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="row" class="container col-12">
+        <div class="container  ">
+            <div class="row">
+
+
+                <div class="col-lg-6 text-white ">
+                    <h1 class="m-3">S'ABONNER </h1>
+                    <p>
+                        souscris pour etre a jour
+                    </p>
+                </div>
+                <div class="col-lg-6  ">
+                    <form role="search">
+                        <div style="height: 65px; " class="input-group m-4">
+                            <input class=" form-control " type="search" placeholder="EMAIL ADDRESS" aria-label="Search">
+                            <button class=" btn btn-warning  " type="submit">Subscribe</button>
                         </div>
-                        <div>
-                            <input style="padding: 15px; margin: 15px; width: 35%;" type="tel"
-                                placeholder="Entrez votre numero de téléphone">
-                            <input style="padding: 15px; margin: 15px; width: 35%;" type="text" placeholder="sujet">
-                        </div>
-                        <textarea style="padding: 10px; margin: 10px; width: 80%;" name="" id="" cols="30" rows="10"
-                            placeholder="Entrez un message"></textarea>
-                        <button class="btn btn-warning btn-lg">ENVOYER LE MESSAGE</button>
+
                     </form>
                 </div>
-
             </div>
-
         </div>
 
-        <div class="conteneur3">
+    </div>
+
+
+
+
+
+    <div id="vert" class="col-12">
+
+        <div id="lien">
+
             <div class="row">
-                <div id="bas">
-                    <div  class="col-lg-6">
-        <h1>S'ABONNER </h1>
-        <p>souscris pour etre a jour</p></div>
-        <div  class="col-lg-6" >
-            <form class="d-flex" role="search">
-              <input class="form-control me-auto form-lg" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-warning btn-lg" type="submit">Search</button>
-            </form>
-          </div></div>
+                <div class="col-6 col-md-4">
+                    <a class="img3 " href="#">
+                        <img class="img-fluid" src="assets/image/Logo_uvci.png" alt=""></a>
                 </div>
-        </div>
-
-
-
-
-        <div id="vert">
-            <div id="lien">
-
-                <div class="row">
-
-                    <a class="img col-xs-6 col-md-4" href="#">
-                        <img src="assets/image/Logo_uvci.png" alt=""></a>
-                    <a class="img1 col-xs-6 col-md-4" href="#">
-                        <img src="assets/image/CAF.png" alt=""></a>
-                    <a class="img2 col-xs-6 col-md-4" href="#">
-                        <img src="assets/image/Miri.png" alt=""></a>
+                <div class="col-6 col-md-4">
+                    <a class="img1" href="#">
+                        <img class="img-fluid" src="assets/image/CAF.png" alt=""></a>
+                </div>
+                <div class="col-6 col-md-4">
+                    <a class="img2 " href="#">
+                        <img class="img-fluid" src="assets/image/Miri.png" alt=""></a>
                 </div>
             </div>
         </div>
-        <footer>
-            <div id="foo">
-                <p>© MiriGroup. Tout Droits Reservé. <span style="color: orange;">MiriGroup</span> </p>
-                <p style="font-size: 20px;"><i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-square-twitter"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-google-plus"></i>
-                </p>
-            </div>
-        </footer>
+    </div>
+    <footer>
+        <div id="foo">
+            <p>© MiriGroup. Tout Droits Reservé. <span style="color: orange;">MiriGroup</span> </p>
+            <p style="font-size: 20px;">
+                <i class="fa-brands fa-facebook "></i>
+                <i class="fa-brands fa-square-twitter "></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-google-plus"></i>
+            </p>
+        </div>
+    </footer>
 
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+        var nav = document.querySelector('nav');
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 5) {
+                nav.classList.add(
+                    'bg-dark', 'shadow'
+                );
+            }
+            else {
+                nav.classList.remove('bg-dark');
+            }
+        })
+    </script>
 </body>
 
 </html>

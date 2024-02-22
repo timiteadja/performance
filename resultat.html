@@ -11,26 +11,20 @@
 </head>
 
 <body>
-</nav>
+    <header>
+        <img class="img-fluid photo" src="assets/image/resultats.jpg" alt="" height="500px " width="100%">
+        <div class="text-center bg " >
 
-
-
-
-
-    <div id="haut">
-
-        <img src="assets/image/resultats.jpg" alt="contacte" width="100%" height="500px">
-        <div id="contact">
-
-            <h1 style="font-size: 40px; margin: 20px;">RESULTATS</h1>
-            <p><a href="#">Accueil</a>
-                <span style="color: orange;"> Resultats </span>
+            <h1 class="text-white  " > <b>RÉSULTATS</b></h1>
+            <p ><a id="bien"  class="text-white " href="#">Accueil</a>
+                <span class="text-warning" > Resultats </span>
             </p>
         </div>
-    </div>
+    </header>
+</nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container ">
           <div class="me-5">
             <a href="index.html">
               <img class="me-auto" src="assets/image/logo.png" alt="logo" width="200px" height="100px"></a>
@@ -45,10 +39,10 @@
     
             <div class="me-5">
               <ul class="nav navbar-nav justify-content-center">
-                <li> <a class="navbar-brand" href="index.html"> ACCEUIL</a></li>
-                <li><a class="navbar-brand" href="metacan.html">META CAN</a></li>
-                <li> <a class="navbar-brand" href="resultat.html">RESULTATS</a></li>
-                <li> <a class="navbar-brand" href="contacte.html">CONTACTEZ-NOUS</a></li>
+                <li> <a class="navbar-brand" href="index.html" target="_blank"> ACCEUIL</a></li>
+                <li><a class="navbar-brand" href="metacan.html" target="_blank">META CAN</a></li>
+                <li> <a class="navbar-brand" href="resultat.html" target="_blank">RESULTATS</a></li>
+                <li> <a class="navbar-brand" href="contacte.html" target="_blank">CONTACTEZ-NOUS</a></li>
               </ul>
             </div>
     
@@ -62,103 +56,113 @@
         </div>
       </nav>
 
-    <div class="pays">
-        <div style="background-color: hsla(182, 89%, 75%, 0.911);" class="partie2">
-            <div class="programme">
-                <tr>
-                    <div>
-                        <td><img src="assets/image/ci.png" alt="" width="70px" height="70px">
-                            <h4>Côte d'Ivoire</h4>
-                        </td>
-                    </div>
-                    <td>
-                        <h1> -:- </h1>
-                    </td>
-                    <div>
-                        <td><img src="assets/image/gb.png" alt="" width="70px" height="70px">
-                            <h4>Guinnée-Bissau</h4>
-                        </td>
-                    </div>
-                    <td>
-                        <p> 13 janvier 2024, 13h</p>
-                    </td>
-                    <td>
-                        <p> <a class="btn btn-warning" href=""> voir PLUS</a></p>
-                    </td>
-                </tr>
-
+                
+    
+            <div class="container my-5">
+                <div class="row ">
+                    <table class="table table-striped ">
+                        <tr style="height: 200px;">
+                            
+                                <td><img src="assets/image/ci.png" alt="" width="70px" height="70px">
+                                    <h4>Côte d'Ivoire</h4>
+                                </td>
+                            
+                            <td>
+                                <h1> -:- </h1>
+                            </td>
+                        
+                                <td><img src="assets/image/gb.png" alt="" width="70px" height="70px">
+                                    <h4>Guinnée-Bissau</h4>
+                                </td>
+                            
+                            <td>
+                                <p> 13 janvier 2024, 13h</p>
+                            </td>
+                            <td>
+                                <p> <a class="btn btn-warning btn-lg" href=""> Voir les Statistiques</a></p>
+                            </td>
+                        </tr>
+        
+                 
+                
+                        <tr style="height: 200px;">
+                            
+                                <td><img src="" alt="" width="70px" height="70px">
+                                    <h4>Nigéria</h4>
+                                </td>
+                        
+                            <td>
+                                <h1> -:- </h1>
+                            </td>
+                        
+                                <td><img src="assets/image/ge.png" alt="" width="70px" height="70px">
+                                    <h4>Guinée-Equatoriale</h4>
+                                </td>
+                        
+                            <td>
+                                <p> 13 janvier 2024, 13h</p>
+                            </td>
+                            <td>
+                                <p> <a class="btn btn-warning btn-lg" href=""> Voir les Statistiques</a></p>
+                            </td>
+        
+                        </tr>
+                   
+                        <tr style="height: 200px;">
+                            
+                                <td><img src="assets/image/egypte.png" alt="" width="70px" height="70px">
+                                    <h4>Egypte</h4>
+                                </td>
+                            
+                            <td>
+                                <h1> -:- </h1>
+                            </td>
+                        
+                                <td><img src="assets/image/mozambique.png" alt="" width="70px" height="70px">
+                                    <h4>Mozambique</h4>
+                                </td>
+                            
+                            <td>
+                                <p> 13 janvier 2024, 13h</p>
+                            </td>
+                            <td>
+                                <p> <a class="btn btn-warning btn-lg" href=""> Voir les Statistiques</a></p>
+                            </td>
+        
+                        </tr>
+                    </table>
+                </div>
             </div>
-        </div>
-        <div class="partie2">
-            <div class="programme">
-                <tr>
-                    <div>
-                        <td><img src="assets/image/ci.png" alt="" width="70px" height="70px">
-                            <h4>Nigéria</h4>
-                        </td>
+                
+            
+            <div id="row" class="container col-12">
+                <div class="container  ">
+                    <div class="row">
+        
+        
+                        <div class="col-lg-6 text-white ">
+                            <h1 class="m-3">S'ABONNER </h1>
+                            <p>
+                                souscris pour etre a jour
+                            </p>
+                        </div>
+                        <div class="col-lg-6  ">
+                            <form role="search">
+                                <div style="height: 65px; " class="input-group m-4">
+                                    <input class=" form-control " type="search" placeholder="EMAIL ADDRESS" aria-label="Search">
+                                    <button class=" btn btn-warning  " type="submit">Subscribe</button>
+                                </div>
+        
+                            </form>
+                        </div>
                     </div>
-                    <td>
-                        <h1> -:- </h1>
-                    </td>
-                    <div>
-                        <td><img src="assets/image/ge.png" alt="" width="70px" height="70px">
-                            <h4>Guinée-Equatoriale</h4>
-                        </td>
-                    </div>
-                    <td>
-                        <p> 13 janvier 2024, 13h</p>
-                    </td>
-                    <td>
-                        <p> <a class="btn btn-warning" href=""> voir plus</a></p>
-                    </td>
-
-                </tr>
+                </div>
+        
             </div>
-        </div>
-        <div style="background-color: hsla(182, 89%, 75%, 0.911);" class="partie2">
-            <div class="programme">
-                <tr>
-                    <div>
-                        <td><img src="assets/image/egypte.png" alt="" width="70px" height="70px">
-                            <h4>Egypte</h4>
-                        </td>
-                    </div>
-                    <td>
-                        <h1> -:- </h1>
-                    </td>
-                    <div>
-                        <td><img src="assets/image/mozambique.png" alt="" width="70px" height="70px">
-                            <h4>Mozambique</h4>
-                        </td>
-                    </div>
-                    <td>
-                        <p> 13 janvier 2024, 13h</p>
-                    </td>
-                    <td>
-                        <p> <a class="btn btn-warning" href=""> voir plus</a></p>
-                    </td>
-
-                </tr>
-            </div>
-        </div>
-    </div>
+        
 
 
-
-    <div class="conteneur3">
-        <div class="row">
-            <div id="bas">
-                <div  class="col-lg-6">
-    <h1>S'ABONNER </h1>
-    <p>souscris pour etre a jour</p></div>
-    <div  class="col-lg-6" >
-        <form class="d-flex" role="search">
-          <input class="form-control me-auto form-lg" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-warning btn-lg" type="submit">Search</button>
-        </form>
-      </div></div>
-            </div>
-    </div>
+    
 
 
 
@@ -167,13 +171,18 @@
         <div id="lien">
 
             <div class="row">
-
-                <a class="img col-sm-6 col-lg-4" href="#">
-                    <img src="assets/image/Logo_uvci.png" alt=""></a>
-                <a class="img1 col-sm-6 col-lg-4" href="#">
-                    <img src="assets/image/CAF.png" alt=""></a>
-                <a class="img2 col-sm-6 col-lg-4" href="#">
-                    <img src="assets/image/Miri.png" alt=""></a>
+                <div class="col-6 col-md-4">
+                    <a class="img0 " href="#">
+                        <img class="img-fluid" src="assets/image/Logo_uvci.png" alt=""></a>
+                </div>
+                <div class="col-6 col-md-4">
+                    <a class="img1" href="#">
+                        <img class="img-fluid" src="assets/image/CAF.png" alt=""></a>
+                </div>
+                <div class="col-6 col-md-4">
+                    <a class="img2 " href="#">
+                        <img class="img-fluid" src="assets/image/Miri.png" alt=""></a>
+                </div>
             </div>
         </div>
     </div>
@@ -181,7 +190,7 @@
         <div id="foo">
             <p>© MiriGroup. Tout Droits Reservé. <span style="color: orange;">MiriGroup</span> </p>
             <p style="font-size: 20px;"><i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-twitter "></i>
                 <i class="fa-brands fa-linkedin"></i>
                 <i class="fa-brands fa-google-plus"></i>
             </p>
@@ -190,8 +199,19 @@
 
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 
-
-
+<script>
+    var nav = document.querySelector('nav');
+    window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 10) {
+            nav.classList.add(
+                'bg-dark', 'shadow'
+            );
+        }
+        else {
+            nav.classList.remove('bg-dark');
+        }
+    })
+</script>
 </body>
 
 </html>
